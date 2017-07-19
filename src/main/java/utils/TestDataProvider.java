@@ -20,14 +20,14 @@ public class TestDataProvider {
         return name;
     }
 
-    public static TestDataProvider getData(){
-        if(testDataProvider==null){
+    public static TestDataProvider getData() {
+        if (testDataProvider == null) {
             testDataProvider = new TestDataProvider();
         }
         return testDataProvider;
     }
 
-    private TestDataProvider(){
+    private TestDataProvider() {
         email = TempEmailProvider.getTempEmail();
         password = StringUtils.generateRandomPass();
         name = "Vasya";

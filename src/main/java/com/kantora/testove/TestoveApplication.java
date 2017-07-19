@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @EnableAutoConfiguration
 public class TestoveApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(TestoveApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(TestoveApplication.class, args);
+    }
 }

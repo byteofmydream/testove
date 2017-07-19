@@ -1,8 +1,6 @@
 package com.kantora.testove.models;
 
 public class EmailResponse {
-
-//    public class Email{
         public Object _id;
         public Object createdAt;
         public Object mail_id;
@@ -14,5 +12,4 @@ public class EmailResponse {
         public Object mail_text;
         public Object mail_html;
         public Object mail_timestamp;
-//    }
 }

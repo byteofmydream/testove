@@ -7,7 +7,7 @@ import utils.DBUtil;
 
 public class IPhonesDescritpionTest {
     @Test
-    public void testIPhoneDescriptions(){
+    public void testIPhoneDescriptions() {
         ProductListingPO productListingPO = new ProductListingPO();
         productListingPO.closePopup();
         productListingPO.searchForItem("Apple iPhone 7");

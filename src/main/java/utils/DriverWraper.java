@@ -8,11 +8,11 @@ import java.util.concurrent.TimeUnit;
 public class DriverWraper {
     private static WebDriver driver;
 
-    private DriverWraper(){
+    private DriverWraper() {
 
     }
 
-    private static void initDriver(){
+    private static void initDriver() {
         String driverPath = DriverWraper.class.getResource("/chromedriver").getPath();
         System.setProperty("webdriver.chrome.driver", driverPath);
 
@@ -21,9 +21,9 @@ public class DriverWraper {
     }
 
     public static WebDriver getDriver() {
-        if(driver==null) {
-             initDriver();
+        if (driver == null) {
+            initDriver();
         }
-            return driver;
+        return driver;
     }
 }
